@@ -1,0 +1,94 @@
+* {
+  max-width: 768px;
+  margin: auto;
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+tr th {
+  background-color: cadetblue;
+  padding: 1px;
+}
+
+.header {
+  background-color: cadetblue;
+  padding: 10px 10px 10px 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.topSpace {
+  padding-top: 0.75vw;
+}
+
+.labelSpace {
+  justify-content: flex-start;
+  margin-left: 0;
+}
+
+.inputSpace {
+  margin-right: 0;
+  justify-content: flex-end;
+}
+
+.inputShape {
+  width: 500px;
+}
+
+.yearShape {
+  width: 150px;
+}
+
+.addButton {
+  width: 5vw;
+  height: 3vw;
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.tableShape {
+  width: 100%;
+}
+
+.thAuthor,
+.thTitle {
+  width: 200px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+.thYear {
+  width: 10px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.thDelete {
+  width: 50px;
+}
+
+.tdYear {
+  text-align: right;
+}
+
+.iconCenter{
+    text-align:center;
+}
+
+.tdDelete{
+  font-size:36px !important;
+}
+
+.tdDelete:hover {
+  cursor:pointer;
+}

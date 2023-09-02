@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/app.js" defer></script>
+    <title>Dynamic Table</title>
+</head>
+<body>
+    <header>
+        <h1 class="header">Music CD's</h1>
+    </header>
+    <main>
+        <section>
+            <form id="cd-form">
+                <article class="flex topSpace">
+                    <label for="author" class="labelSpace">Author:</label>
+                    <input type="text" id="author" class="inputSpace inputShape" required>
+                </article>
+                <article class="flex topSpace">
+                    <label for="title" class="labelSpace">Title:</label>
+                    <input type="text" id="title" class="inputSpace inputShape"  required>
+                </article>
+                <article class="flex topSpace">
+                    <label for="year" class="labelSpace">Year:</label>
+                    <input type="number" id="year" class="inputSpace yearShape" required>
+                </article>
+                <br>
+                <button type="submit" class="addButton">Add</button>
+            </form>
+        </section>
+        <section class="topSpace">
+            <table id="cd-list" class="tableShape">
+                <thead>
+                    <tr>
+                        <th class="thAuthor">Author</th>
+                        <th class="thTitle">Title</th>
+                        <th class="thYear">Year</th>
+                        <th class="thDelete"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Memory data (Structure and classes assigned via JS)-->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
